@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<!--Created by: Jhennifer Cardozo - Created on: Nov 27,2019-->
+<html dir="ltr" lang="en">
+
+<!-- #BeginTemplate "projectTamplate.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Contact Form</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "description" -->
+<meta name="description" content="Contact us with your requirements">
+<!-- #EndEditable -->
+<!-- #BeginEditable "keywords" -->
+<meta name="keywords" content="Jhennifer, realtor.">
+<!-- #EndEditable -->
+
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+.auto-style1 {
+	color: #FFFFFF;
+}
+.auto-style2 {
+	text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+      <img class="Banner" src="images/Banner.png">
+
+  </header>
+    <nav>
+	<ul>
+      <li id="page"><a href="index.html">Home</a></li>
+      <li><a href="listings.html">Listings</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+	 </ul>
+    </nav>
+  <main>
+ 	<!-- #BeginEditable "main" -->
+ 	<div>
+ 	<h2>Contact us for your dream home</h2>
+ 	<br>
+ 	<h3>Office address:</h3>
+ 	<h4>1983, Yonge Street</h4>
+ 	<h4>Toronto, ON Canada</h4>
+ 	<br>
+ 	<br>
+ 	<form method="post" action="mailto:jscardozo@my.centennialcollege.ca">
+ 	<label><strong>First Name: </strong></label>
+ 	 <label style="margin-left:220px;"><strong>Last Name: </strong></label><br>
+	 <input name="txtName" tabindex="01" type="text" size="35px"/><input name="txtName" type="text" style="margin-left:30px;" size="35px"/>
+ 	 <br><br>
+	 <label><strong>Email: </strong></label><br><input name="txtEmail" tabindex="03" type="email" size="79px"/>
+	 <br><br>
+	 <label><strong>Phone: </strong></label><br><input name="txtPhone" tabindex="05" type="phone" size="79px"/>
+	 <br><br>
+	 	 <label><strong>Type of Property:</strong></label>: <select name="select1" tabindex="07">
+		 <option></option>
+		 <option>House</option>
+		 <option>Tow Home</option>
+		 <option>Apartment</option>
+		 </select><br><br>
+	 <label><strong>No. Rooms</strong></label>: <select name="select2" tabindex="09">
+		 <option></option>
+		 <option>1</option>
+		 <option>2</option>
+		 <option>3</option>
+		 <option>4+</option>
+		 </select>
+	<label><strong style="margin-left:50px;">No. Baths</strong></label>: <select name="select3" tabindex="11">
+		 <option></option>
+		 <option>1</option>
+		 <option>2</option>
+		 <option>3</option>
+		 <option>4+</option>
+		 </select>
+		 <br><br>
+ 	<label for="txtSpecialReq"><strong>Special Requirements:</strong></label><br><br>
+		 <textarea id="txtSpecialReq" cols="50" name="txtSpecialReq" rows="8" tabindex="13">---Please let us know about any special services you may require---</textarea>
+		 <br><br>
+	<label style="width: 200px"><input name="botSubmit" tabindex="15" type="submit" value="Submit Form"></label>
+	<input name="botReset" tabindex="11" type="reset" value="Reset Form"><br>
+	</form>
+ 	</div>
+ 	<!-- #EndEditable -->
+  </main>
+   <aside>
+    <figure>
+    <img src="images/gugu.jpeg" width="280" height="320" alt="Realtor">
+    <p>
+    Phone: (418) 234-5678
+    <br>Email:<a class="auto-style2" href="mailto:liberato_property@realtor.ca"><span class="auto-style1">liberato_property@realtor.ca</span></a></p>
+    </figure>
+  </aside>
+  <footer>
+	&copy;&nbsp;Copyright COMP213 - Jhennifer Cardozo - 301073142- Project - Fall 2019
+  </footer>
+ </div>
+
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<!--Created by: Jhennifer Cardozo - Created on: Nov 27,2019-->
+<html dir="ltr" lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled 1</title>
+<!-- #EndEditable -->
+<!-- #BeginEditable "description" -->
+<meta name="description" content="Page description here.">
+<!-- #EndEditable -->
+<!-- #BeginEditable "keywords" -->
+<meta name="keywords" content="Page keywords here.">
+<!-- #EndEditable -->
+
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+.auto-style1 {
+	color: #FFFFFF;
+}
+.auto-style2 {
+	text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+      <img class="Banner" src="images/Banner.png">
+   
+  </header>
+    <nav>
+	<ul>
+      <li id="page"><a href="home.html">Home</a></li>
+      <li><a href="listings.html">Listings</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Sitemap</a></li>
+      <li><a href="../index.html">Index</a></li>
+	 </ul>
+    </nav>
+  <main>
+ 	<!-- #BeginEditable "main" -->
+ 	<div>
+ 	</div>
+ 	<!-- #EndEditable -->
+  </main>
+   <aside>
+    <figure>
+    <img src="images/Gugu.png" width="280" height="320" alt="Gugu Liberato">
+    <p>
+    Phone: (418) 234-5678
+    <br>Email:<a class="auto-style2" href="mailto:liberato_property@realtor.ca"><span class="auto-style1">liberato_property@realtor.ca</span></a></p>
+    </figure>
+  </aside> 
+  <footer>
+	&copy;&nbsp;Copyright COMP213 - Jhennifer Cardozo - 301073142- Project - Fall 2019
+  </footer>
+ </div>
+
+
+</body>
+
+</html>
